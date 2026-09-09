@@ -52,5 +52,15 @@
 
 สกัดจากค่าน้ำหนักสัมประสิทธิ์ (Coefficients) ของโมเดล Logistic Regression:
 
+
+
+https://www.kaggle.com/datasets/arhamrumi/amazon-product-reviews
+
+<img width="1008" height="294" alt="Screenshot 2026-09-09 201046" src="https://github.com/user-attachments/assets/7d6c0104-b139-4232-b818-0c867bc36333" />
+<img width="833" height="157" alt="Screenshot 2026-09-09 201103" src="https://github.com/user-attachments/assets/6d034ed2-9795-4f85-9b84-12d46c95dce7" />
+<img width="658" height="245" alt="Screenshot 2026-09-09 201116" src="https://github.com/user-attachments/assets/788c6d12-4432-49ab-9aa7-c25289a73e64" />
+
+
+
 * **Top 10 Positive Words:** great, best, good, delicious, excellent, love, loves, perfect, yummy, nice
 * **Top 10 Negative Words:** not, not good, disappointed, worst, disappointing, awful, terrible, horrible, not worth, unfortunately
