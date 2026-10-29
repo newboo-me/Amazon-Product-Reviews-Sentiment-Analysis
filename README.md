@@ -65,7 +65,7 @@ https://www.kaggle.com/datasets/arhamrumi/amazon-product-reviews
 * **Top 10 Positive Words:** great, best, good, delicious, excellent, love, loves, perfect, yummy, nice
 * **Top 10 Negative Words:** not, not good, disappointed, worst, disappointing, awful, terrible, horrible, not worth, unfortunately
 
-**ไอเดียต่อยอดต่อ**
+**ไอเดียต่อยอด**
 
 
 ระบบเฝ้าระวังและแจ้งเตือนลูกค้ารายบุคคล (Real-time Customer Retention Alert): นำโมเดลไปต่อยอดเชื่อมต่อกับ API ของระบบหลังบ้าน เมื่อมีรีวิวเชิงลบเกิดขึ้น ระบบจะเด้ง Alert ไปยังทีม Customer Support ผ่าน Slack หรือ Email ทันที เพื่อให้ทีมงานเข้าแก้ปัญหา ติดต่อคืนเงิน หรือมอบคูปองชดเชยได้ทันทีก่อนที่ลูกค้าจะเสียความรู้สึก
