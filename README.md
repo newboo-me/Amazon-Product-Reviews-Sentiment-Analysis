@@ -1,5 +1,5 @@
 # Amazon-Product-Reviews-Sentiment-Analysis
-# Amazon Product Reviews Sentiment Analysis
+
 
 การสร้างและเปรียบเทียบโมเดล Machine Learning เพื่อจำแนกอารมณ์ของข้อความรีวิวสินค้า (เชิงบวก vs เชิงลบ) จากชุดข้อมูล Amazon Product Reviews โดยเน้นการจัดการข้อมูลไม่สมดุล (Imbalanced Data) และการเปรียบเทียบประสิทธิภาพระหว่างโมเดลกลุ่ม Linear และ Tree-Based
 
@@ -30,7 +30,7 @@
 
 ---
 
-**ผลการเปรียบเทียบโมเดล (Model Benchmarking)**
+**ผลการเปรียบเทียบโมเดล (Model Benchmarking)
 
 ทดสอบ 4 โมเดลบนชุดข้อมูลทดสอบ (Test Set) จำนวน 10,000 แถว โดยวัดผลที่คลาส Negative (0) เป็นหลัก:
 
@@ -64,3 +64,12 @@ https://www.kaggle.com/datasets/arhamrumi/amazon-product-reviews
 
 * **Top 10 Positive Words:** great, best, good, delicious, excellent, love, loves, perfect, yummy, nice
 * **Top 10 Negative Words:** not, not good, disappointed, worst, disappointing, awful, terrible, horrible, not worth, unfortunately
+
+**ไอเดียต่อยอดต่อ**
+
+
+ระบบเฝ้าระวังและแจ้งเตือนลูกค้ารายบุคคล (Real-time Customer Retention Alert): นำโมเดลไปต่อยอดเชื่อมต่อกับ API ของระบบหลังบ้าน เมื่อมีรีวิวเชิงลบเกิดขึ้น ระบบจะเด้ง Alert ไปยังทีม Customer Support ผ่าน Slack หรือ Email ทันที เพื่อให้ทีมงานเข้าแก้ปัญหา ติดต่อคืนเงิน หรือมอบคูปองชดเชยได้ทันทีก่อนที่ลูกค้าจะเสียความรู้สึก
+
+Aspect-Based Sentiment Analysis (ABSA): ขยายขอบเขตจากการมองอารมณ์ภาพรวม มาเป็นการแยกวิเคราะห์อารมณ์เจาะจงรายมิติ เช่น แยกคำติชมด้าน "คุณภาพสินค้า", "ความเร็วในการจัดส่ง", หรือ "การบรรจุภัณฑ์" เพื่อส่ง Feedback ให้แผนกที่เกี่ยวข้องปรับปรุงตรงจุด
+
+การทำ MLOps & Dashboard: นำโมเดล LinearSVC ที่ชนะการทดลอง ไปทำเป็น REST API ด้วย FastAPI หรือ Docker แล้วต่อเข้ากับ Dashboard (Streamlit / Power BI) ให้ฝ่ายการตลาดติดตาม Sentiment Trend ของสินค้าแต่ละหมวดหมู่ได้แบบอัตโนมัติ
